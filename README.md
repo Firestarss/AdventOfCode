@@ -13,7 +13,7 @@
 <a href="Years/2024/Day02/Python/solve.py">
   <img src=".aoc_tiles/tiles/2024/02.png" width="161px">
 </a>
-<a href="Years/2024/Day03/solve.py">
+<a href="Years/2024/Day03/Python/solve.py">
   <img src=".aoc_tiles/tiles/2024/03.png" width="161px">
 </a>
 <a href="Years/2024/Day04/Python/solve.py">

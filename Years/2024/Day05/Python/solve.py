@@ -59,6 +59,7 @@ def part2():
     incorrect = [update for update in updates if not is_valid(rules, update)]
     valid = [sort_valid(rules, update) for update in incorrect]
     print(sum([update[(len(update) - 1) // 2] for update in valid]))
+    
 
 part1()
 part2()
