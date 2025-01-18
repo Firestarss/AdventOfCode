@@ -2,7 +2,7 @@ import itertools
 
 input_files = ["input.txt", "test_input.txt"]
 
-file = 0
+file = 1
 with open(input_files[file], 'r') as f:
     input_s = f.read()
     sections = input_s.split("\n\n")
@@ -30,13 +30,21 @@ def is_valid(rules, update):
     
     return True
 
-def shuffle_valid(rules, update):
-    perms = itertools.permutations(update)
-    for perm in perms:
-        if is_valid(rules, perm):
-            return perm
-        
-    return None
+def move_value(l, v):
+    idx = l.index(v)
+    l.remove(v)
+    l.insert(idx-1, v)
+    return l
+
+def sort_valid(rules, update):
+    output = [update.pop(0)]
+
+    for v in update:
+        output.append(v)
+        while not is_valid(rules, output):
+            output = move_value(output, v)
+
+    return output
 
 def part1():
     output = 0
@@ -49,7 +57,7 @@ def part1():
 
 def part2():
     incorrect = [update for update in updates if not is_valid(rules, update)]
-    valid = [shuffle_valid(rules, update) for update in incorrect]
+    valid = [sort_valid(rules, update) for update in incorrect]
     print(sum([update[(len(update) - 1) // 2] for update in valid]))
 
 part1()
