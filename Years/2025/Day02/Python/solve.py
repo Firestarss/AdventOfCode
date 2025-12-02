@@ -22,17 +22,10 @@ def part2():
     for line in lines:
         for i in range(line[0], line[1] + 1):
             id = str(i)
-            if get_p2_invalid(id):
+            if id in (id + id)[1:-1]:
                 output += i
 
     print(output)
-
-def get_p2_invalid(id):
-    for n in range(1, len(id)//2 + 1):
-        if len(set([id[i:i+n] for i in range(0, len(id), n)])) == 1:
-            return True
-
-    return False
 
 def main():
     overall_start = time.perf_counter()
