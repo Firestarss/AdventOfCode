@@ -1,3 +1,4 @@
+import time
 
 
 input_files = ["input.txt", "test_input.txt"]
