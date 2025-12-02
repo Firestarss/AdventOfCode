@@ -18,7 +18,6 @@ def part1():
 
 def part2():
     output = 0
-    get_p2_invalid("11")
 
     for line in lines:
         for i in range(line[0], line[1] + 1):
