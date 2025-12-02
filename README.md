@@ -2,9 +2,93 @@
 
 <!-- AOC TILES BEGIN -->
 <h1 align="center">
+<<<<<<< HEAD
   Advent of Code - 288/500 ⭐
 </h1>
 <h1 align="center">
+=======
+  Advent of Code - 292/504 ⭐
+</h1>
+<h1 align="center">
+  2025 - 4 ⭐ - Python
+</h1>
+<a href="Years/2025/Day01/Python/solve.py">
+  <img src=".aoc_tiles/tiles/2025/01.png" width="161px">
+</a>
+<a href="Years/2025/Day02/Python/solve.py">
+  <img src=".aoc_tiles/tiles/2025/02.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/03.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/04.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/05.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/06.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/07.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/08.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/09.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/10.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/11.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/12.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/13.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/14.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/15.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/16.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/17.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/18.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/19.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/20.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/21.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/22.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/23.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/24.png" width="161px">
+</a>
+<a href="None">
+  <img src=".aoc_tiles/tiles/2025/25.png" width="161px">
+</a>
+<h1 align="center">
+>>>>>>> ac3b16e8b05578745987fb5367bedbd322631447
   2024 - 12 ⭐ - Python
 </h1>
 <a href="Years/2024/Day01/Python/solve.py">

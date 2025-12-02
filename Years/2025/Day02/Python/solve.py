@@ -1,0 +1,39 @@
+
+
+input_files = ["input.txt", "test_input.txt"]
+
+file = 0
+with open(input_files[file], 'r') as f:
+    lines =  [list(map(int, a.strip().split('-'))) for a in f.read().split(',')]
+
+def part1():
+    out = 0
+    for line in lines:
+        for i in range(line[0], line[1] + 1):
+            id = str(i)
+            if id[len(id)//2:] == id[:len(id)//2]:
+                out += i
+
+    print(out)
+
+def part2():
+    output = 0
+    get_p2_invalid("11")
+
+    for line in lines:
+        for i in range(line[0], line[1] + 1):
+            id = str(i)
+            if get_p2_invalid(id):
+                output += i
+
+    print(output)
+
+def get_p2_invalid(id):
+    for n in range(1, len(id)//2 + 1):
+        if len(set([id[i:i+n] for i in range(0, len(id), n)])) == 1:
+            return True
+
+    return False
+
+# part1()
+part2()
